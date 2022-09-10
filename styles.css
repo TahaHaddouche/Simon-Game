@@ -71,27 +71,11 @@ p
   border-radius: 20%;
   background-color: #000000AA;
   backdrop-filter: blur(5px);
-  width: 260px;
-  height: 260px;
+  width: 265px;
+  height: 265px;
   opacity: 1;
   margin: 0 2.5px 2.5px 0;
   transition: 0.6s;
-}
-@media (max-width: 670px)
-{
-  .note-expand
-  {
-    width: 265px;
-    height: 265px;
-  }
-}
-@media (max-width: 450px)
-{
-  .note-expand
-  {
-    width: 270px;
-    height: 270px;
-  }
 }
 .i
 {
@@ -285,6 +269,7 @@ footer
   {
     font-size: 10px;
     line-height: 1.3;
+    margin-top: 10px;
   }
   .fa-github
   {
@@ -342,6 +327,7 @@ footer
   {
     font-size: 9px;
     line-height: 1.2;
+    margin-top:40px;
   }
   .fa-github
   {
