@@ -77,6 +77,20 @@ p
   margin: 0 2.5px 2.5px 0;
   transition: 0.6s;
 }
+@media (max-width: 670px)
+{
+  .note-expand
+  {
+    height: 265px;
+  }
+}
+@media (max-width: 450px)
+{
+  .note-expand
+  {
+    height: 270px;
+  }
+}
 .i
 {
   line-height: 2;
